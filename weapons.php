@@ -1,6 +1,6 @@
 <html>
 <head></head>
-<title>Jezzy's Battle Weapons Gear Calculator</title>
+<title>Jezzy's Weapons Calculator</title>
 <body>
 </tr>
 <?php
@@ -41,6 +41,13 @@ $ltwOid = $CraftWeaponOH_id + 4;
 $wvrOid = $CraftWeaponOH_id + 5;
 $alcOid = $CraftWeaponOH_id + 6;
 $culOid = $CraftWeaponOH_id + 7;
+
+$minMid = $GathWeaponMH_id;
+$btnMid = $GathWeaponMH_id + 1;
+$fshMid = $GathWeaponMH_id + 2;
+
+$minOid = $GathWeaponOH_id;
+$btnOid = $GathWeaponOH_id + 1;
 //////////////End Gear ID numbers//////////////
 
 
@@ -79,26 +86,17 @@ $GLOBALS['price_wvrO'] = "https://xivapi.com/market/$server/items/$wvrOid?key=$i
 $GLOBALS['price_alcO'] = "https://xivapi.com/market/$server/items/$alcOid?key=$id";
 $GLOBALS['price_culO'] = "https://xivapi.com/market/$server/items/$culOid?key=$id";
 
+$GLOBALS['price_minM'] = "https://xivapi.com/market/$server/items/$minMid?key=$id";
+$GLOBALS['price_btnM'] = "https://xivapi.com/market/$server/items/$btnMid?key=$id";
+$GLOBALS['price_fshM'] = "https://xivapi.com/market/$server/items/$fshMid?key=$id";
+
+$GLOBALS['price_minO'] = "https://xivapi.com/market/$server/items/$minOid?key=$id";
+$GLOBALS['price_btnO'] = "https://xivapi.com/market/$server/items/$btnOid?key=$id";
+
 
 /////////////End Gear API URLs/////////////
 
-
-
-
-/////////////Setting up the 6 Column Table/////////////
-?>
-<table style="width:40%">
-<tr>
-<th width=5%></th>
-<th width=5%></th>
-<th width=40%></th>
-<th width=5%></th>
-<th width=5%></th>
-<th width=40%></th>
-</tr>
-<?php
-/////////////Finish Table/////////////
-
+include 'tablesetup.inc';
 
 /////////////Execute Fetch for each Slot/////////////
 fetch(pld);
@@ -113,6 +111,7 @@ fetch(whm);
 fetch(blm);
 fetch(smn);
 fetch(sch);
+fetch(ast);
 fetch(sam);
 fetch(rdm);
 
@@ -133,6 +132,13 @@ fetch(ltwO);
 fetch(wvrO);
 fetch(alcO);
 fetch(culO);
+
+fetch(minM);
+fetch(btnM);
+fetch(fshM);
+
+fetch(minO);
+fetch(btnO);
 /////////////Finish Fetch for each Slot/////////////
 
 /////////////Echo Slot Variables into table/////////////
@@ -143,6 +149,7 @@ echo "<tr><td>$drk<td> $mch</td></tr>";
 echo "<tr><td>$whm<td> $blm</td></tr>";
 echo "<tr><td>$smn<td> $sch</td></tr>";
 echo "<tr><td>$sam<td> $rdm</td></tr>";
+echo "<tr><td>$ast<td> $fshM</td></tr>"; 
 echo "<tr><td>$crpM<td> $crpO</td></tr>";
 echo "<tr><td>$bsmM<td> $bsmO</td></tr>";
 echo "<tr><td>$armM<td> $armO</td></tr>";
@@ -153,7 +160,6 @@ echo "<tr><td>$alcM<td> $alcO</td></tr>";
 echo "<tr><td>$culM<td> $culO</td></tr>";
 echo "<tr><td>$minM<td> $minO</td></tr>";
 echo "<tr><td>$btnM<td> $btnO</td></tr>";
-echo "<tr><td>$fshM</tr>";
 /////////////Finish Table/////////////
 
 ?>

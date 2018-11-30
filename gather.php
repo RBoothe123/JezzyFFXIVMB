@@ -34,20 +34,7 @@ $GLOBALS['price_wrist'] = "https://xivapi.com/market/$server/items/$wristid?key=
 $GLOBALS['price_ring'] = "https://xivapi.com/market/$server/items/$ringid?key=$id";
 /////////////End Gear API URLs/////////////
 
-
-/////////////Setting up the 6 Column Table/////////////
-?>
-<table style="width:40%">
-<tr>
-<th width=5%></th>
-<th width=5%></th>
-<th width=40%></th>
-<th width=5%></th>
-<th width=5%></th>
-<th width=40%></th>
-<?php
-/////////////Finish Table/////////////
-
+include 'tablesetup.inc';
 
 /////////////Execute Fetch for each Slot/////////////
 fetch(head);
