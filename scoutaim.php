@@ -30,24 +30,24 @@ $ringid = $AimRight_id + 15;
 
 
 /////////////Gear API URLs/////////////
-$GLOBALS['price_head1'] = "https://xivapi.com/market/$server/items/$headid1?key=$id";
-$GLOBALS['price_body1'] = "https://xivapi.com/market/$server/items/$bodyid1?key=$id";
-$GLOBALS['price_gloves1'] = "https://xivapi.com/market/$server/items/$glovesid1?key=$id" ;
-$GLOBALS['price_legs1'] = "https://xivapi.com/market/$server/items/$legsid1?key=$id" ;
-$GLOBALS['price_feet1'] = "https://xivapi.com/market/$server/items/$feetid1?key=$id";
-$GLOBALS['price_waist1'] = "https://xivapi.com/market/$server/items/$waistid1?key=$id" ;
+$GLOBALS['price_head1'] = "https://xivapi.com/market/$server/items/$headid1?key=$keyid";
+$GLOBALS['price_body1'] = "https://xivapi.com/market/$server/items/$bodyid1?key=$keyid";
+$GLOBALS['price_gloves1'] = "https://xivapi.com/market/$server/items/$glovesid1?key=$keyid" ;
+$GLOBALS['price_legs1'] = "https://xivapi.com/market/$server/items/$legsid1?key=$keyid" ;
+$GLOBALS['price_feet1'] = "https://xivapi.com/market/$server/items/$feetid1?key=$keyid";
+$GLOBALS['price_waist1'] = "https://xivapi.com/market/$server/items/$waistid1?key=$keyid" ;
 
-$GLOBALS['price_head2'] = "https://xivapi.com/market/$server/items/$headid2?key=$id";
-$GLOBALS['price_body2'] = "https://xivapi.com/market/$server/items/$bodyid2?key=$id";
-$GLOBALS['price_gloves2'] = "https://xivapi.com/market/$server/items/$glovesid2?key=$id" ;
-$GLOBALS['price_legs2'] = "https://xivapi.com/market/$server/items/$legsid2?key=$id" ;
-$GLOBALS['price_feet2'] = "https://xivapi.com/market/$server/items/$feetid2?key=$id";
-$GLOBALS['price_waist2'] = "https://xivapi.com/market/$server/items/$waistid2?key=$id" ;
+$GLOBALS['price_head2'] = "https://xivapi.com/market/$server/items/$headid2?key=$keyid";
+$GLOBALS['price_body2'] = "https://xivapi.com/market/$server/items/$bodyid2?key=$keyid";
+$GLOBALS['price_gloves2'] = "https://xivapi.com/market/$server/items/$glovesid2?key=$keyid" ;
+$GLOBALS['price_legs2'] = "https://xivapi.com/market/$server/items/$legsid2?key=$keyid" ;
+$GLOBALS['price_feet2'] = "https://xivapi.com/market/$server/items/$feetid2?key=$keyid";
+$GLOBALS['price_waist2'] = "https://xivapi.com/market/$server/items/$waistid2?key=$keyid" ;
 
-$GLOBALS['price_ear'] = "https://xivapi.com/market/$server/items/$earid?key=$id";
-$GLOBALS['price_neck'] = "https://xivapi.com/market/$server/items/$neckid?key=$id";
-$GLOBALS['price_wrist'] = "https://xivapi.com/market/$server/items/$wristid?key=$id";
-$GLOBALS['price_ring'] = "https://xivapi.com/market/$server/items/$ringid?key=$id";
+$GLOBALS['price_ear'] = "https://xivapi.com/market/$server/items/$earid?key=$keyid";
+$GLOBALS['price_neck'] = "https://xivapi.com/market/$server/items/$neckid?key=$keyid";
+$GLOBALS['price_wrist'] = "https://xivapi.com/market/$server/items/$wristid?key=$keyid";
+$GLOBALS['price_ring'] = "https://xivapi.com/market/$server/items/$ringid?key=$keyid";
 /////////////End Gear API URLs/////////////
 
 include 'tablesetupdouble.inc';

@@ -52,46 +52,46 @@ $btnOid = $GathWeaponOH_id + 1;
 
 
 /////////////Gear API URLs/////////////
-$GLOBALS['price_pld'] = "https://xivapi.com/market/$server/items/$pldid?key=$id";
-$GLOBALS['price_mnk'] = "https://xivapi.com/market/$server/items/$mnkid?key=$id";
-$GLOBALS['price_war'] = "https://xivapi.com/market/$server/items/$warid?key=$id" ;
-$GLOBALS['price_drg'] = "https://xivapi.com/market/$server/items/$drgid?key=$id" ;
-$GLOBALS['price_brd'] = "https://xivapi.com/market/$server/items/$brdid?key=$id" ;
-$GLOBALS['price_nin'] = "https://xivapi.com/market/$server/items/$ninid?key=$id";
-$GLOBALS['price_drk'] = "https://xivapi.com/market/$server/items/$drkid?key=$id";
-$GLOBALS['price_mch'] = "https://xivapi.com/market/$server/items/$mchid?key=$id";
-$GLOBALS['price_whm'] = "https://xivapi.com/market/$server/items/$whmid?key=$id";
-$GLOBALS['price_blm'] = "https://xivapi.com/market/$server/items/$blmid?key=$id";
-$GLOBALS['price_smn'] = "https://xivapi.com/market/$server/items/$smnid?key=$id";
-$GLOBALS['price_sch'] = "https://xivapi.com/market/$server/items/$schid?key=$id";
-$GLOBALS['price_ast'] = "https://xivapi.com/market/$server/items/$astid?key=$id";
-$GLOBALS['price_sam'] = "https://xivapi.com/market/$server/items/$samid?key=$id";
-$GLOBALS['price_rdm'] = "https://xivapi.com/market/$server/items/$rdmid?key=$id";
+$GLOBALS['price_pld'] = "https://xivapi.com/market/$server/items/$pldid?key=$keyid";
+$GLOBALS['price_mnk'] = "https://xivapi.com/market/$server/items/$mnkid?key=$keyid";
+$GLOBALS['price_war'] = "https://xivapi.com/market/$server/items/$warid?key=$keyid" ;
+$GLOBALS['price_drg'] = "https://xivapi.com/market/$server/items/$drgid?key=$keyid" ;
+$GLOBALS['price_brd'] = "https://xivapi.com/market/$server/items/$brdid?key=$keyid" ;
+$GLOBALS['price_nin'] = "https://xivapi.com/market/$server/items/$ninid?key=$keyid";
+$GLOBALS['price_drk'] = "https://xivapi.com/market/$server/items/$drkid?key=$keyid";
+$GLOBALS['price_mch'] = "https://xivapi.com/market/$server/items/$mchid?key=$keyid";
+$GLOBALS['price_whm'] = "https://xivapi.com/market/$server/items/$whmid?key=$keyid";
+$GLOBALS['price_blm'] = "https://xivapi.com/market/$server/items/$blmid?key=$keyid";
+$GLOBALS['price_smn'] = "https://xivapi.com/market/$server/items/$smnid?key=$keyid";
+$GLOBALS['price_sch'] = "https://xivapi.com/market/$server/items/$schid?key=$keyid";
+$GLOBALS['price_ast'] = "https://xivapi.com/market/$server/items/$astid?key=$keyid";
+$GLOBALS['price_sam'] = "https://xivapi.com/market/$server/items/$samid?key=$keyid";
+$GLOBALS['price_rdm'] = "https://xivapi.com/market/$server/items/$rdmid?key=$keyid";
 
-$GLOBALS['price_crpM'] = "https://xivapi.com/market/$server/items/$crpMid?key=$id";
-$GLOBALS['price_bsmM'] = "https://xivapi.com/market/$server/items/$bsmMid?key=$id";
-$GLOBALS['price_armM'] = "https://xivapi.com/market/$server/items/$armMid?key=$id";
-$GLOBALS['price_gsmM'] = "https://xivapi.com/market/$server/items/$gsmMid?key=$id";
-$GLOBALS['price_ltwM'] = "https://xivapi.com/market/$server/items/$ltwMid?key=$id";
-$GLOBALS['price_wvrM'] = "https://xivapi.com/market/$server/items/$wvrMid?key=$id";
-$GLOBALS['price_alcM'] = "https://xivapi.com/market/$server/items/$alcMid?key=$id";
-$GLOBALS['price_culM'] = "https://xivapi.com/market/$server/items/$culMid?key=$id";
+$GLOBALS['price_crpM'] = "https://xivapi.com/market/$server/items/$crpMid?key=$keyid";
+$GLOBALS['price_bsmM'] = "https://xivapi.com/market/$server/items/$bsmMid?key=$keyid";
+$GLOBALS['price_armM'] = "https://xivapi.com/market/$server/items/$armMid?key=$keyid";
+$GLOBALS['price_gsmM'] = "https://xivapi.com/market/$server/items/$gsmMid?key=$keyid";
+$GLOBALS['price_ltwM'] = "https://xivapi.com/market/$server/items/$ltwMid?key=$keyid";
+$GLOBALS['price_wvrM'] = "https://xivapi.com/market/$server/items/$wvrMid?key=$keyid";
+$GLOBALS['price_alcM'] = "https://xivapi.com/market/$server/items/$alcMid?key=$keyid";
+$GLOBALS['price_culM'] = "https://xivapi.com/market/$server/items/$culMid?key=$keyid";
 
-$GLOBALS['price_crpO'] = "https://xivapi.com/market/$server/items/$crpOid?key=$id";
-$GLOBALS['price_bsmO'] = "https://xivapi.com/market/$server/items/$bsmOid?key=$id";
-$GLOBALS['price_armO'] = "https://xivapi.com/market/$server/items/$armOid?key=$id";
-$GLOBALS['price_gsmO'] = "https://xivapi.com/market/$server/items/$gsmOid?key=$id";
-$GLOBALS['price_ltwO'] = "https://xivapi.com/market/$server/items/$ltwOid?key=$id";
-$GLOBALS['price_wvrO'] = "https://xivapi.com/market/$server/items/$wvrOid?key=$id";
-$GLOBALS['price_alcO'] = "https://xivapi.com/market/$server/items/$alcOid?key=$id";
-$GLOBALS['price_culO'] = "https://xivapi.com/market/$server/items/$culOid?key=$id";
+$GLOBALS['price_crpO'] = "https://xivapi.com/market/$server/items/$crpOid?key=$keyid";
+$GLOBALS['price_bsmO'] = "https://xivapi.com/market/$server/items/$bsmOid?key=$keyid";
+$GLOBALS['price_armO'] = "https://xivapi.com/market/$server/items/$armOid?key=$keyid";
+$GLOBALS['price_gsmO'] = "https://xivapi.com/market/$server/items/$gsmOid?key=$keyid";
+$GLOBALS['price_ltwO'] = "https://xivapi.com/market/$server/items/$ltwOid?key=$keyid";
+$GLOBALS['price_wvrO'] = "https://xivapi.com/market/$server/items/$wvrOid?key=$keyid";
+$GLOBALS['price_alcO'] = "https://xivapi.com/market/$server/items/$alcOid?key=$keyid";
+$GLOBALS['price_culO'] = "https://xivapi.com/market/$server/items/$culOid?key=$keyid";
 
-$GLOBALS['price_minM'] = "https://xivapi.com/market/$server/items/$minMid?key=$id";
-$GLOBALS['price_btnM'] = "https://xivapi.com/market/$server/items/$btnMid?key=$id";
-$GLOBALS['price_fshM'] = "https://xivapi.com/market/$server/items/$fshMid?key=$id";
+$GLOBALS['price_minM'] = "https://xivapi.com/market/$server/items/$minMid?key=$keyid";
+$GLOBALS['price_btnM'] = "https://xivapi.com/market/$server/items/$btnMid?key=$keyid";
+$GLOBALS['price_fshM'] = "https://xivapi.com/market/$server/items/$fshMid?key=$keyid";
 
-$GLOBALS['price_minO'] = "https://xivapi.com/market/$server/items/$minOid?key=$id";
-$GLOBALS['price_btnO'] = "https://xivapi.com/market/$server/items/$btnOid?key=$id";
+$GLOBALS['price_minO'] = "https://xivapi.com/market/$server/items/$minOid?key=$keyid";
+$GLOBALS['price_btnO'] = "https://xivapi.com/market/$server/items/$btnOid?key=$keyid";
 
 
 /////////////End Gear API URLs/////////////
@@ -149,7 +149,7 @@ echo "<tr><td>$drk<td> $mch</td></tr>";
 echo "<tr><td>$whm<td> $blm</td></tr>";
 echo "<tr><td>$smn<td> $sch</td></tr>";
 echo "<tr><td>$sam<td> $rdm</td></tr>";
-echo "<tr><td>$ast<td> $fshM</td></tr>"; 
+echo "<tr><td>$ast<td> $fshM</td></tr>";
 echo "<tr><td>$crpM<td> $crpO</td></tr>";
 echo "<tr><td>$bsmM<td> $bsmO</td></tr>";
 echo "<tr><td>$armM<td> $armO</td></tr>";

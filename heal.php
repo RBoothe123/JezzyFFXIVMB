@@ -23,16 +23,16 @@ $ringid = $HealRight_id + 15;
 
 
 /////////////Gear API URLs/////////////
-$GLOBALS['price_head'] = "https://xivapi.com/market/$server/items/$headid?key=$id";
-$GLOBALS['price_body'] = "https://xivapi.com/market/$server/items/$bodyid?key=$id";
-$GLOBALS['price_gloves'] = "https://xivapi.com/market/$server/items/$glovesid?key=$id" ;
-$GLOBALS['price_waist'] = "https://xivapi.com/market/$server/items/$waistid?key=$id" ;
-$GLOBALS['price_legs'] = "https://xivapi.com/market/$server/items/$legsid?key=$id" ;
-$GLOBALS['price_feet'] = "https://xivapi.com/market/$server/items/$feetid?key=$id";
-$GLOBALS['price_ear'] = "https://xivapi.com/market/$server/items/$earid?key=$id";
-$GLOBALS['price_neck'] = "https://xivapi.com/market/$server/items/$neckid?key=$id";
-$GLOBALS['price_wrist'] = "https://xivapi.com/market/$server/items/$wristid?key=$id";
-$GLOBALS['price_ring'] = "https://xivapi.com/market/$server/items/$ringid?key=$id";
+$GLOBALS['price_head'] = "https://xivapi.com/market/$server/items/$headid?key=$keyid";
+$GLOBALS['price_body'] = "https://xivapi.com/market/$server/items/$bodyid?key=$keyid";
+$GLOBALS['price_gloves'] = "https://xivapi.com/market/$server/items/$glovesid?key=$keyid" ;
+$GLOBALS['price_waist'] = "https://xivapi.com/market/$server/items/$waistid?key=$keyid" ;
+$GLOBALS['price_legs'] = "https://xivapi.com/market/$server/items/$legsid?key=$keyid" ;
+$GLOBALS['price_feet'] = "https://xivapi.com/market/$server/items/$feetid?key=$keyid";
+$GLOBALS['price_ear'] = "https://xivapi.com/market/$server/items/$earid?key=$keyid";
+$GLOBALS['price_neck'] = "https://xivapi.com/market/$server/items/$neckid?key=$keyid";
+$GLOBALS['price_wrist'] = "https://xivapi.com/market/$server/items/$wristid?key=$keyid";
+$GLOBALS['price_ring'] = "https://xivapi.com/market/$server/items/$ringid?key=$keyid";
 /////////////End Gear API URLs/////////////
 
 include 'tablesetup.inc';
