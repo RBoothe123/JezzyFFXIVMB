@@ -15,7 +15,7 @@ $fetch_id = json_decode($fetch_api, true)[Item][ID];
 
 //Check to see if the item is even up to start
 if ($fetch_price[PricePerUnit] == null) {
-$GLOBALS["$slot"] = "<img src=x.png height=40 width=40></td><td<img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td> no $slot available $fetch_price[PricePerUnit]</td>";
+$GLOBALS["$slot"] = "<img src=x.png height=40 width=40></td><td><img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td> no $slot available $fetch_price[PricePerUnit] <br><a href=PingCrystal.php?item_id=$fetch_id>Check Other Servers?</a></td>";
 } else {
 
 //Find the lowest price HQ
@@ -37,14 +37,14 @@ if ($fetch_up[CraftSignature] == "$character"){
 
 //Check to see if the item exists after searching for HQ
 if ($fetch_price[PricePerUnit] == null) {
-$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td> no HQ $slot available $fetch_price[PricePerUnit]</td>";
+$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td> no HQ $slot available $fetch_price[PricePerUnit] <br><a href=PingCrystal.php?item_id=$fetch_id>Check Other Servers?</a></td>";
 } else {
 //Check Crafting Signature to match yours
 if ($fetch_price[CraftSignature] == "$character"){
-$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=check.png height=40 width=40></td><a href=CraftingIngredients.php?item_id=$fetch_id><td><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td>Lowest HQ: $fetch_price[PricePerUnit]</td>";  //Crafting Sig is yours
+$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=check.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td>Lowest HQ: $fetch_price[PricePerUnit] <br><a href=PingCrystal.php?item_id=$fetch_id>Check Other Servers?</a></td>";  //Crafting Sig is yours
 
 } else {
-$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td>Lowest HQ: $fetch_price[PricePerUnit]</td>";  //Crafting Sig is NOT yours
+$GLOBALS["$slot"] = "<img src=$up.png height=40 width=40></td><td><img src=x.png height=40 width=40></td><td><a href=CraftingIngredients.php?item_id=$fetch_id><img src=https://xivapi.com/$fetch_icon title=\"$fetch_name\"></a></td><td>Lowest HQ: $fetch_price[PricePerUnit] <br><a href=PingCrystal.php?item_id=$fetch_id>Check Other Servers?</a></td>";  //Crafting Sig is NOT yours
 }
 }
 }
