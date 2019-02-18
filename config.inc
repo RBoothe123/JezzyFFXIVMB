@@ -1,8 +1,8 @@
 <?php
 //////////////Begin Configurations///////////
-$server = "brynhildr";                            //Server you want to check
-$GLOBALS['character'] = "Jezabella Moretz";       //If you want to check your Crafted Signature
-$keyid = "b04184baabe34ff08fb7f1ee";                 //Jezzy's Client ID, this isn't used atm but might be in future APi updates
+$server = "";                            //Server you want to check
+$GLOBALS['character'] = "";       //If you want to check your Crafted Signature
+$keyid = "";                 //Get your own API Key ID at https://xivapi.com/
 ////////////Tank gear////////////
 $TankLeft_id = 23783;     //Starting ID for tank shield via XIVDB item#
 $TankRight_id = 23826;    //Starting ID for tank ear via XIVDB item#
